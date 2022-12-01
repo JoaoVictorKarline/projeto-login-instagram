@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 501px) and (max-width: 870px){
+
+    div#left{
+        display: none;
+    }
+
+    article{
+        background-color: #FAFAFA;
+        min-width: 470px;
+    }
+
+    div#right{
+        display: block;
+        float: none;
+        position: relative;
+        background-color: #FAFAFA;
+        width: 100%;
+
+    }
+
+    div#form{
+        position: absolute;
+        height: 600px;
+        width: 500px;
+        
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -60%);
+    }
+
+   .input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 360px;
+   }
+
+   #botao{
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+
+   .line{
+    width: 160px;
+    margin-left: 37px;
+   }
+
+   span{
+    margin-left: 35px;
+   }
+
+   a#facebook{
+    margin-top: 50px;
+   }
+}
+
