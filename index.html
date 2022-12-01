@@ -22,18 +22,23 @@
                     <form action="" method="post" autocomplete="on">
                         <input type="email" name="email" id="iemail" class="input" placeholder="E-mail" autocomplete="email">
                         <input type="password" name="senha" id="isenha" class="input" placeholder="Senha">
-                        <input type="button" value="Entrar" id="botao">
+                        <input type="button" value="Entrar" id="botao" onclick="entrar()">
                         <div class="line"></div> 
                         <span>OU</span>
                         <div class="line"></div>
                     </form>
-                    <a href="#" id="facebook"><img src="imagens/facebook.png" alt="">Entrar com o Facebook</a>
-                    <a href="#" id="esqueceusenha">Esqueceu a senha?</a>
+                    <a href="#" id="facebook" onclick="entrar()"><img src="imagens/facebook.png" alt="">Entrar com o Facebook</a>
+                    <a href="#" id="esqueceusenha" onclick="entrar()">Esqueceu a senha?</a>
                 </div>
             </div>
         </article>
         
     </main>
 
+        <script>
+            function entrar(){
+                alert('Essa é apenas uma versão da tela de Login do Instagram produzido por @JoãoVictorKarline')
+            }
+        </script>
 </body>
 </html>
