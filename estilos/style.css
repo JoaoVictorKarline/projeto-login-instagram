@@ -195,6 +195,19 @@ img{
     text-decoration: underline;
 }
 
+iframe{
+    position: relative;
+    width: 233px;
+    height: 427px;
+
+    top: 75px;
+    left: 138px;
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.596);
+}
+
+
 
 
 
